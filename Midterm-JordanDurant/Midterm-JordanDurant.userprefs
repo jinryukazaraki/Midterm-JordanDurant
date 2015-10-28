@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Hazard\Collision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\respawnPlayer.cs">
     <Files>
-      <File FileName="Assets\End_point.cs" Line="3" Column="1" />
-      <File FileName="Assets\Hazard\Collision.cs" Line="10" Column="22" />
+      <File FileName="Assets\Standard Assets\Utility\EventSystemChecker.cs" Line="1" Column="1" />
+      <File FileName="Assets\respawnPlayer.cs" Line="14" Column="16" />
+      <File FileName="Assets\GameControlller.cs" Line="38" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

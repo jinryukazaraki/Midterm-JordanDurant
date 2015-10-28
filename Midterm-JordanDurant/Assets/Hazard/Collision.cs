@@ -1,19 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Collision : MonoBehaviour {
-
+public class Hazard : MonoBehaviour {
+	public GameObject respawnPoint;
+	
 	// Use this for initialization
-	void OnTriggerEnter(Collider other){		
-		if(other.gameObject.tag=="item"){
-			other.gameObject.SetActive(false);
-			count = count + 1;
-			CountText();
-		}
-		if(other.gameObject.tag=="hazard"){
-			other.gameObject.SetActive(false);
-			Vector3 jump = new Vector3(0.0f, 30, 0.0f);
-			rigidbody.AddForce (jump * speed * Time.deltaTime);
-		}
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+	
+	void OnTriggerEnter(Collider other) {
+		other.gameObject.transform.position = respawnPoint.transform.position;
 	}
 }
